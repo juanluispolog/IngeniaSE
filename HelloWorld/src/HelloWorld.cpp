@@ -10,6 +10,10 @@
 using namespace std;
 
 int main() {
+	string name;
 	cout << "!!!Hello World!!" << endl << "Dani is in the mood" << endl; // prints !!!Hello World!!!
+	cout << "What is your name?" << endl;
+	cin >> name;
+	cout << "Hello, " << name << " I´m Sandra" << endl;
 	return 0;
 }
