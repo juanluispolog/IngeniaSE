@@ -15,5 +15,6 @@ int main() {
 	cout << "What is your name?" << endl;
 	cin >> name;
 	cout << "Hello, " << name << " I´m Sandra" << endl;
+	cout << "Isabel is using GIT" << endl;
 	return 0;
 }
