@@ -22,6 +22,6 @@ int main() {
 	cout <<"I'm Jose and I love INGENIA"<<endl;
 	cout <<"Stop kidding Jaime, I AM JOSE. This is not funny."<<endl;
 	cout <<"David here"<<endl;
-	cout <<"Im Daniel, Error 404 Linux not found" << endl;
+	cout <<"Im Daniel, Error 404 Linux not found." << endl;
 	return 0;
 }
