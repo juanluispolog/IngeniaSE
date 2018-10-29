@@ -17,6 +17,6 @@ int main() {
 	cout << "Hello, " << name << " I´m Sandra" << endl;
 	cout << "Isabel is using GIT" << endl;
 	cout << "Jaime is slower than Isabel" << endl;
-
+	cout << "Not really, Jaime"<< endl;
 	return 0;
 }
