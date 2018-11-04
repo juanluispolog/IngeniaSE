@@ -14,7 +14,7 @@ int main() {
 	cout << "!!!Hello World!!" << endl << "Dani is in the mood" << endl; // prints !!!Hello World!!!
 	cout << "What is your name?" << endl;
 	cin >> name;
-	cout << "Hello, " << name << " I´m Sandra" << endl;
+	cout << "Hello, " << name << " IÂ´m Sandra" << endl;
 	cout << "Isabel is using GIT" << endl;
 	cout << "Jaime is slower than Isabel" << endl;
 	cout << "Not really, Jaime"<< endl;
@@ -23,7 +23,8 @@ int main() {
 	cout <<"Stop kidding Jaime, I AM JOSE. This is not funny."<<endl;
 	cout <<"David here"<<endl;
 	cout <<"Im Daniel, Error 404 Linux not found." << endl;
-    cout <<"Eclipse is not working on my computer, but i«m still trying. Juan Luis." << endl;
+    cout <<"Eclipse is not working on my computer, but iÂ«m still trying. Juan Luis." << endl;
     cout <<"Im Inigo, how is it going mates?" << endl;
+	cout <<"I'm Mikel, still thinking something interesting to say "<< endl;
 	return 0;
 }
