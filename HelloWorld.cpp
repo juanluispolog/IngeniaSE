@@ -27,5 +27,6 @@ int main() {
     cout <<"Im Inigo, how is it going mates?" << endl;
     cout << "Hi, I'm Claudia" << endl;
 	cout <<"I'm Alberto! That's all folks!"<< endl;
+	cout <<"I'm Mikel, still thinking something interesting to say "<< endl;
 	return 0;
 }
