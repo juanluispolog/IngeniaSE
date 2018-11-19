@@ -8,8 +8,15 @@
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_47d3kOvlEeibmu4islJ7mQ" name="Poscionamiento">
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_ir-9oOvlEeibmu4islJ7mQ" name="Calidad"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_ir-9oOvlEeibmu4islJ7mQ" name="Calidad">
+        <generalization xmi:type="uml:Generalization" xmi:id="_r6dbMOvsEeibmu4islJ7mQ" general="_DcX4QOvrEeibmu4islJ7mQ"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_DcX4QOvrEeibmu4islJ7mQ" name="Calidad de imagen">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_DcX4QevrEeibmu4islJ7mQ" name="Calidad"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_9YKBIOvsEeibmu4islJ7mQ" name="Posicionamiento"/>
+      </nestedClassifier>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ncyWAOvsEeibmu4islJ7mQ" name="Requirement14"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gctxEOviEeibmu4islJ7mQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcuYIOviEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -72,6 +79,9 @@
     </profileApplication>
   </uml:Model>
   <standard:Framework xmi:id="_ZZR4oOvkEeibmu4islJ7mQ" base_Package="_gZQNYOviEeibmu4islJ7mQ"/>
-  <Requirements:Requirement xmi:id="_isAy0OvlEeibmu4islJ7mQ" base_Class="_ir-9oOvlEeibmu4islJ7mQ" id="1" text="Autor: Jaime de los Santos Escribano&#xD;&#xA;Descripción: Este bloque es el bloque padre de la rama de requisitos de calidad del dron."/>
-  <Requirements:Requirement xmi:id="_47g64OvlEeibmu4islJ7mQ" base_Class="_47d3kOvlEeibmu4islJ7mQ" id="1.1" text="Autor: Jaime de los Santos Escribano&#xD;&#xA;Descripción: Debe establecerse un parámetro que refleje el posicionamiento teniendo en cuenta los requisitos específicos del cliente. Puede medirse en mm respecto a la posición deseada."/>
+  <Requirements:Requirement xmi:id="_isAy0OvlEeibmu4islJ7mQ" base_Class="_ir-9oOvlEeibmu4islJ7mQ" id="1" text="Autor: Jaime de los Santos Escribano - 19/11/18 - 12:01&#xD;&#xA;Descripción: Este bloque es el bloque padre de la rama de requisitos de calidad del dron."/>
+  <Requirements:Requirement xmi:id="_47g64OvlEeibmu4islJ7mQ" base_Class="_47d3kOvlEeibmu4islJ7mQ" id="1.1" text="Autor: Jaime de los Santos Escribano - 19/11/18 - 12:05&#xD;&#xA;Descripción: Debe establecerse un parámetro que refleje el posicionamiento teniendo en cuenta los requisitos específicos del cliente. Puede medirse en mm respecto a la posición deseada.Autor: Jaime de los Santos Escribano - 19/11/18 - 12:05&#xD;&#xA;Descripción: Debe establecerse un parámetro que refleje el posicionamiento teniendo en cuenta los requisitos específicos del cliente. Puede medirse en mm respecto a la posición deseada."/>
+  <Requirements:Requirement xmi:id="_DckFlOvrEeibmu4islJ7mQ" base_Class="_DcX4QevrEeibmu4islJ7mQ" id="1" text="Autor: Jaime de los Santos Escribano&#xD;&#xA;Descripción: Este bloque es el bloque padre de la rama de requisitos de calidad del dron."/>
+  <Requirements:Requirement xmi:id="_DckFlevrEeibmu4islJ7mQ" base_Class="_DcX4QOvrEeibmu4islJ7mQ" id="1.2" text="Autor: Juan Luis Polo - 19/11/18 - 12:16&#xD;&#xA;Descripción: La imagen tomada deberá tener un mínimo de resolución, que será definida por el cliente (a precisar más adelante)."/>
+  <Requirements:Requirement xmi:id="_9YQHwOvsEeibmu4islJ7mQ" base_Class="_9YKBIOvsEeibmu4islJ7mQ" id="1.1" text="Autor: Jaime de los Santos Escribano - 19/11/18 - 12:05&#xD;&#xA;Descripción: Debe establecerse un parámetro que refleje el posicionamiento teniendo en cuenta los requisitos específicos del cliente. Puede medirse en mm respecto a la posición deseada."/>
 </xmi:XMI>
