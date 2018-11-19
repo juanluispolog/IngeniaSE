@@ -20,6 +20,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_rCpFkOvwEeibmu4islJ7mQ" name="Sostenibilidad">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_rCpFkevwEeibmu4islJ7mQ" name="Calidad"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_B-Hi0OvxEeibmu4islJ7mQ" name="ODS promovidas"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_Lh5wwOvyEeibmu4islJ7mQ" name="Final de su vida útil"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gctxEOviEeibmu4islJ7mQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcuYIOviEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -91,4 +92,5 @@
   <Requirements:Requirement xmi:id="_rCvMROvwEeibmu4islJ7mQ" base_Class="_rCpFkOvwEeibmu4islJ7mQ" id="2" text="Autor: Claudia Martín del Canto - 19/11/18 - 12:46&#xD;&#xA;Descripción:identificar la manera en que el proyecto del dron puede colaborar con los objetivos de desarrollo sostenible a lo largo de su ciclo de vida"/>
   <Requirements:Requirement xmi:id="_rCvMRevwEeibmu4islJ7mQ" base_Class="_rCpFkevwEeibmu4islJ7mQ" id="1" text="Autor: Jaime de los Santos Escribano&#xD;&#xA;Descripción: Este bloque es el bloque padre de la rama de requisitos de calidad del dron."/>
   <Requirements:Requirement xmi:id="_B-NphOvxEeibmu4islJ7mQ" base_Class="_B-Hi0OvxEeibmu4islJ7mQ" id="2.1" text="Autor:Claudia Martín del Canto - 19/11/18 - 12:49&#xD;&#xA;Descripción: Identificar las ODS en las que colabora el proyecto del dron"/>
+  <Requirements:Requirement xmi:id="_Lh5w1evyEeibmu4islJ7mQ" base_Class="_Lh5wwOvyEeibmu4islJ7mQ" id="2.2" text="Autor:David Morcuende Carreras - 19/11/18 - 12:58&#xD;&#xA;Descripción: Identificar la normativa que regule este tipo de prodcutos y el planteamiento de fin de ciclo"/>
 </xmi:XMI>
