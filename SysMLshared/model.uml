@@ -22,6 +22,38 @@
       <nestedClassifier xmi:type="uml:Class" xmi:id="_B-Hi0OvxEeibmu4islJ7mQ" name="ODS promovidas"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_Lh5wwOvyEeibmu4islJ7mQ" name="Final de su vida útil"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Wjg8sOv1EeipH-uBCCQM4Q" name="Seguridad">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Wjg8sev1EeipH-uBCCQM4Q" name="Autor">
+        <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Wjg8suv1EeipH-uBCCQM4Q" value="Sandra Hernández"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Wjg8s-v1EeipH-uBCCQM4Q" name="Fecha">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Wjg8tOv1EeipH-uBCCQM4Q" value="19/11/18 - 13:02"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_sovHYOv1EeipH-uBCCQM4Q" name="Autor">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_uza2QOv1EeipH-uBCCQM4Q" value="Sandra Hernández "/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wHiwkOv1EeipH-uBCCQM4Q" name="Fecha">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_zejIoOv1EeipH-uBCCQM4Q" value="19/11/18 - 13:21"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_Wjg8tev1EeipH-uBCCQM4Q" name="Umbral de batería">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Wjg8tuv1EeipH-uBCCQM4Q" name="Autor">
+          <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Wjg8t-v1EeipH-uBCCQM4Q" value="Sandra Hernández"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Wjg8uOv1EeipH-uBCCQM4Q" name="Requirement2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Wjg8uev1EeipH-uBCCQM4Q" value="19/11/18 - 13:08"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_eh03EOv1EeipH-uBCCQM4Q" name="Autor">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_iqq7wOv1EeipH-uBCCQM4Q" value="Sandra Hernández"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_l94Y8Ov1EeipH-uBCCQM4Q" name="Fecha">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_r5NH4Ov1EeipH-uBCCQM4Q" value="19/11/18 - 13:24"/>
+        </ownedAttribute>
+      </nestedClassifier>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gctxEOviEeibmu4islJ7mQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcuYIOviEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -93,4 +125,6 @@
   <Requirements:Requirement xmi:id="_rCvMRevwEeibmu4islJ7mQ" base_Class="_rCpFkevwEeibmu4islJ7mQ" id="1" text="Autor: Jaime de los Santos Escribano&#xD;&#xA;Descripción: Este bloque es el bloque padre de la rama de requisitos de calidad del dron."/>
   <Requirements:Requirement xmi:id="_B-NphOvxEeibmu4islJ7mQ" base_Class="_B-Hi0OvxEeibmu4islJ7mQ" id="2.1" text="Autor:Claudia Martín del Canto - 19/11/18 - 12:49&#xD;&#xA;Descripción: Identificar las ODS en las que colabora el proyecto del dron"/>
   <Requirements:Requirement xmi:id="_Lh5w1evyEeibmu4islJ7mQ" base_Class="_Lh5wwOvyEeibmu4islJ7mQ" id="2.2" text="Autor:David Morcuende Carreras - 19/11/18 - 12:58&#xD;&#xA;Descripción: Identificar la normativa que regule este tipo de prodcutos y el planteamiento de fin de ciclo"/>
+  <Requirements:Requirement xmi:id="_Wjg84uv1EeipH-uBCCQM4Q" base_Class="_Wjg8sOv1EeipH-uBCCQM4Q" id="3" text="Fijar requisitos mínimos de seguridad para el desarrollo del proyecto&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_Wjg84-v1EeipH-uBCCQM4Q" base_Class="_Wjg8tev1EeipH-uBCCQM4Q" id="3.1" text="Asegurar que el nivel de batería siempre es suficiente para que el dron regrese al punto de aterrizaje o subestación"/>
 </xmi:XMI>
