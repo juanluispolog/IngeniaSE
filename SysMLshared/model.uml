@@ -20,6 +20,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_rCpFkOvwEeibmu4islJ7mQ" name="Sostenibilidad">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_rCpFkevwEeibmu4islJ7mQ" name="Calidad"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_B-Hi0OvxEeibmu4islJ7mQ" name="ODS promovidas"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_TF1U0O8qEeiuSsS8iGg7TA" name="Fabricación y distribución"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_GnS38OvyEeipH-uBCCQM4Q" name="Seguridad">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_aPfmkOvyEeipH-uBCCQM4Q" name="Autor">
@@ -48,6 +49,10 @@
           <defaultValue xmi:type="uml:LiteralString" xmi:id="_jY0wUOv3EeipH-uBCCQM4Q" value="19/11/18 - 13:35"/>
         </ownedAttribute>
       </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZPfsoO8oEeiuSsS8iGg7TA" name="Software">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_ZPfsoe8oEeiuSsS8iGg7TA" name="Calidad"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_ZPfsou8oEeiuSsS8iGg7TA" name="Control robusto"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gctxEOviEeibmu4islJ7mQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcuYIOviEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -122,4 +127,8 @@
   <Requirements:Requirement xmi:id="_GnYXgOvyEeipH-uBCCQM4Q" base_Class="_GnS38OvyEeipH-uBCCQM4Q" id="3" text="Fijar requisitos mínimos de seguridad para el desarrollo del proyecto&#xD;&#xA;"/>
   <Requirements:Requirement xmi:id="_8sJA8evyEeipH-uBCCQM4Q" base_Class="_8sJA8OvyEeipH-uBCCQM4Q" id="3.1" text="Asegurar que el nivel de batería siempre es suficiente para que el dron regrese al punto de aterrizaje o subestación"/>
   <Requirements:Requirement xmi:id="_IvdFAOv3EeipH-uBCCQM4Q" base_Class="_IuZ8IOv3EeipH-uBCCQM4Q" id="3.2" text="Desarrollar un protocolo de aterrizaje de emergencia en caso de agotamiento de la batería.&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_ZPj-EO8oEeiuSsS8iGg7TA" base_Class="_ZPfsoO8oEeiuSsS8iGg7TA" id="4" text="Autor: Daniel Vicente Rodrigo Muñoz- 23/11/18 - 15:02&#xD;&#xA;Descripción:El código debe estar optimizado, ser sencillo, flexible ante cambios en el valor de los parámetros, legible y reutilizable."/>
+  <Requirements:Requirement xmi:id="_ZPklIO8oEeiuSsS8iGg7TA" base_Class="_ZPfsou8oEeiuSsS8iGg7TA" id="4.1" text="Autor:Daniel Vicente Rodrigo Muñoz  - 23/11/18 - 15:07&#xD;&#xA;Descripción: De cara a la adaptación del dron a distintos ambientes, se deberá diseñar un control robusto"/>
+  <Requirements:Requirement xmi:id="_ZPlMMO8oEeiuSsS8iGg7TA" base_Class="_ZPfsoe8oEeiuSsS8iGg7TA" id="1" text="Autor: Jaime de los Santos Escribano&#xD;&#xA;Descripción: Este bloque es el bloque padre de la rama de requisitos de calidad del dron."/>
+  <Requirements:Requirement xmi:id="_TF3xEO8qEeiuSsS8iGg7TA" base_Class="_TF1U0O8qEeiuSsS8iGg7TA" id="2.2" text="Autor:Alberto Fernández Pérez - 23/11/18 - 15:18&#xD;&#xA;Descripción: El objetivo principal es el de reducir costes, realizar productos de calidad y reducir el transporte."/>
 </xmi:XMI>
