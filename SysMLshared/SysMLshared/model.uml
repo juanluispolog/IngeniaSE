@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_gZQNYOviEeibmu4islJ7mQ" name="model">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_gcypkOviEeibmu4islJ7mQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_gc-20OviEeibmu4islJ7mQ">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_47d3kOvlEeibmu4islJ7mQ" name="Poscionamiento">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_ir-9oOvlEeibmu4islJ7mQ" name="Calidad">
+        <generalization xmi:type="uml:Generalization" xmi:id="_r6dbMOvsEeibmu4islJ7mQ" general="_DcX4QOvrEeibmu4islJ7mQ"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_DcX4QOvrEeibmu4islJ7mQ" name="Calidad de imagen">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_DcX4QevrEeibmu4islJ7mQ" name="Calidad"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_9YKBIOvsEeibmu4islJ7mQ" name="Posicionamiento"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ncyWAOvsEeibmu4islJ7mQ" name="Requirement14"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rCpFkOvwEeibmu4islJ7mQ" name="Sostenibilidad">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_rCpFkevwEeibmu4islJ7mQ" name="Calidad"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_B-Hi0OvxEeibmu4islJ7mQ" name="ODS promovidas"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_TF1U0O8qEeiuSsS8iGg7TA" name="Fabricación y distribución"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GnS38OvyEeipH-uBCCQM4Q" name="Seguridad">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_aPfmkOvyEeipH-uBCCQM4Q" name="Autor">
+        <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fILMwOvyEeipH-uBCCQM4Q" value="Sandra Hernández"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kXETgOvyEeipH-uBCCQM4Q" name="Fecha">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_tpkZoOvyEeipH-uBCCQM4Q" value="19/11/18 - 13:02"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_8sJA8OvyEeipH-uBCCQM4Q" name="Umbral de batería">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_n_xqIOvzEeipH-uBCCQM4Q" name="Autor">
+          <type xmi:type="uml:DataType" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries.package_packagedElement_PrimitiveValueTypes.dataType_packagedElement_String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_uYTScOvzEeipH-uBCCQM4Q" value="Sandra Hernández"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_wHCFIOvzEeipH-uBCCQM4Q" name="Requirement2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_z3pQAOvzEeipH-uBCCQM4Q" value="19/11/18 - 13:08"/>
+        </ownedAttribute>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_IuZ8IOv3EeipH-uBCCQM4Q" name="Aterrizaje de emergencia">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_YT4cMOv3EeipH-uBCCQM4Q" name="Autor">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_bVDuMOv3EeipH-uBCCQM4Q" value="Antonio Rodríguez-Ynyesto Sánchez&#xD;&#xA;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_e6YPEOv3EeipH-uBCCQM4Q" name="Fecha">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_jY0wUOv3EeipH-uBCCQM4Q" value="19/11/18 - 13:35"/>
+        </ownedAttribute>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZPfsoO8oEeiuSsS8iGg7TA" name="Software">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_ZPfsoe8oEeiuSsS8iGg7TA" name="Calidad"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_ZPfsou8oEeiuSsS8iGg7TA" name="Control robusto"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gctxEOviEeibmu4islJ7mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcuYIOviEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gcu_MOviEeibmu4islJ7mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcu_MeviEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gcvmQOviEeibmu4islJ7mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcvmQeviEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gcvmQuviEeibmu4islJ7mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcvmQ-viEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gcwNUOviEeibmu4islJ7mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcwNUeviEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gcwNUuviEeibmu4islJ7mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcwNU-viEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gcw0YOviEeibmu4islJ7mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcw0YeviEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gcw0YuviEeibmu4islJ7mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcxbcOviEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gcxbceviEeibmu4islJ7mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcxbcuviEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gcyCgOviEeibmu4islJ7mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcyCgeviEeibmu4islJ7mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <standard:Framework xmi:id="_ZZR4oOvkEeibmu4islJ7mQ" base_Package="_gZQNYOviEeibmu4islJ7mQ"/>
+  <Requirements:Requirement xmi:id="_isAy0OvlEeibmu4islJ7mQ" base_Class="_ir-9oOvlEeibmu4islJ7mQ" id="1" text="Autor: Jaime de los Santos Escribano - 19/11/18 - 12:01&#xD;&#xA;Descripción: Este bloque es el bloque padre de la rama de requisitos de calidad del dron."/>
+  <Requirements:Requirement xmi:id="_47g64OvlEeibmu4islJ7mQ" base_Class="_47d3kOvlEeibmu4islJ7mQ" id="1.1" text="Autor: Jaime de los Santos Escribano - 19/11/18 - 12:05&#xD;&#xA;Descripción: Debe establecerse un parámetro que refleje el posicionamiento teniendo en cuenta los requisitos específicos del cliente. Puede medirse en mm respecto a la posición deseada.Autor: Jaime de los Santos Escribano - 19/11/18 - 12:05&#xD;&#xA;Descripción: Debe establecerse un parámetro que refleje el posicionamiento teniendo en cuenta los requisitos específicos del cliente. Puede medirse en mm respecto a la posición deseada."/>
+  <Requirements:Requirement xmi:id="_DckFlOvrEeibmu4islJ7mQ" base_Class="_DcX4QevrEeibmu4islJ7mQ" id="1" text="Autor: Jaime de los Santos Escribano&#xD;&#xA;Descripción: Este bloque es el bloque padre de la rama de requisitos de calidad del dron."/>
+  <Requirements:Requirement xmi:id="_DckFlevrEeibmu4islJ7mQ" base_Class="_DcX4QOvrEeibmu4islJ7mQ" id="1.2" text="Autor: Juan Luis Polo - 19/11/18 - 12:16&#xD;&#xA;Descripción: La imagen tomada deberá tener un mínimo de resolución, que será definida por el cliente (a precisar más adelante)."/>
+  <Requirements:Requirement xmi:id="_9YQHwOvsEeibmu4islJ7mQ" base_Class="_9YKBIOvsEeibmu4islJ7mQ" id="1.1" text="Autor: Jaime de los Santos Escribano - 19/11/18 - 12:05&#xD;&#xA;Descripción: Debe establecerse un parámetro que refleje el posicionamiento teniendo en cuenta los requisitos específicos del cliente. Puede medirse en mm respecto a la posición deseada."/>
+  <Requirements:Requirement xmi:id="_rCvMROvwEeibmu4islJ7mQ" base_Class="_rCpFkOvwEeibmu4islJ7mQ" id="2" text="Autor: Claudia Martín del Canto - 19/11/18 - 12:46&#xD;&#xA;Descripción:identificar la manera en que el proyecto del dron puede colaborar con los objetivos de desarrollo sostenible a lo largo de su ciclo de vida"/>
+  <Requirements:Requirement xmi:id="_rCvMRevwEeibmu4islJ7mQ" base_Class="_rCpFkevwEeibmu4islJ7mQ" id="1" text="Autor: Jaime de los Santos Escribano&#xD;&#xA;Descripción: Este bloque es el bloque padre de la rama de requisitos de calidad del dron."/>
+  <Requirements:Requirement xmi:id="_B-NphOvxEeibmu4islJ7mQ" base_Class="_B-Hi0OvxEeibmu4islJ7mQ" id="2.1" text="Autor:Claudia Martín del Canto - 19/11/18 - 12:49&#xD;&#xA;Descripción: Identificar las ODS en las que colabora el proyecto del dron"/>
+  <Requirements:Requirement xmi:id="_GnYXgOvyEeipH-uBCCQM4Q" base_Class="_GnS38OvyEeipH-uBCCQM4Q" id="3" text="Fijar requisitos mínimos de seguridad para el desarrollo del proyecto&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_8sJA8evyEeipH-uBCCQM4Q" base_Class="_8sJA8OvyEeipH-uBCCQM4Q" id="3.1" text="Asegurar que el nivel de batería siempre es suficiente para que el dron regrese al punto de aterrizaje o subestación"/>
+  <Requirements:Requirement xmi:id="_IvdFAOv3EeipH-uBCCQM4Q" base_Class="_IuZ8IOv3EeipH-uBCCQM4Q" id="3.2" text="Desarrollar un protocolo de aterrizaje de emergencia en caso de agotamiento de la batería.&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_ZPj-EO8oEeiuSsS8iGg7TA" base_Class="_ZPfsoO8oEeiuSsS8iGg7TA" id="4" text="Autor: Daniel Vicente Rodrigo Muñoz- 23/11/18 - 15:02&#xD;&#xA;Descripción:El código debe estar optimizado, ser sencillo, flexible ante cambios en el valor de los parámetros, legible y reutilizable."/>
+  <Requirements:Requirement xmi:id="_ZPklIO8oEeiuSsS8iGg7TA" base_Class="_ZPfsou8oEeiuSsS8iGg7TA" id="4.1" text="Autor:Daniel Vicente Rodrigo Muñoz  - 23/11/18 - 15:07&#xD;&#xA;Descripción: De cara a la adaptación del dron a distintos ambientes, se deberá diseñar un control robusto"/>
+  <Requirements:Requirement xmi:id="_ZPlMMO8oEeiuSsS8iGg7TA" base_Class="_ZPfsoe8oEeiuSsS8iGg7TA" id="1" text="Autor: Jaime de los Santos Escribano&#xD;&#xA;Descripción: Este bloque es el bloque padre de la rama de requisitos de calidad del dron."/>
+  <Requirements:Requirement xmi:id="_TF3xEO8qEeiuSsS8iGg7TA" base_Class="_TF1U0O8qEeiuSsS8iGg7TA" id="2.2" text="Autor:Alberto Fernández Pérez - 23/11/18 - 15:18&#xD;&#xA;Descripción: El objetivo principal es el de reducir costes, realizar productos de calidad y reducir el transporte."/>
+</xmi:XMI>
